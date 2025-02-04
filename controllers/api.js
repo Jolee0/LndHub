@@ -607,7 +607,7 @@ function errorSunset(res) {
   return res.send({
     error: true,
     code: 11,
-    message: 'This LNDHub instance is not accepting any more users',
+    message: 'This LNDHub instance is not accepting new users.',
   });
 }
 
